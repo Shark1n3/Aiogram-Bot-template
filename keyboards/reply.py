@@ -1,0 +1,2 @@
+from aiogram import types
+menu = types.ReplyKeyboardMarkup(keyboard=[[types.KeyboardButton('Вынести корень'), types.KeyboardButton('Квадратное уравнение')], [types.KeyboardButton('❔ Помощь')]], resize_keyboard=True)
